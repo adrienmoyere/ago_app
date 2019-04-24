@@ -13,7 +13,7 @@
 		<nav>
 			<ul>
 				<li id="title">My Shop</li> 
-				<li class="navbutton"><a href="cart.html">Cart({{cart}})</a></li>
+				<li class="navbutton" id="cart"><a href="cart.html">Cart({{cart}})</a></li>
 				<li class="navbutton"><a href="#app">Products</a></li>			
 			</ul>
 		</nav>
@@ -23,40 +23,60 @@
 				<div class="col1">
 					<h3> Product {{p1[0]}}</h3>
 					<img v-bind:src="p1[2]">
-					<p> {{p1[1]}}</p>
-					<button v-on:click="">Add to Cart</button>
+					<p>{{p1[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 				<div class="col2">
 					<h3> Product {{p2[0]}}</h3>
 					<img v-bind:src="p2[2]">
 					<p> {{p2[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 				<div class="col3">
 					<h3> Product {{p3[0]}}</h3>
 					<img v-bind:src="p3[2]">
 					<p> {{p3[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col1">
-					coucou ça va 
+					<h3> Product {{p4[0]}}</h3>
+					<img v-bind:src="p4[2]">
+					<p> {{p4[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 				<div class="col2">
-					coucou ça va 
+					<h3> Product {{p5[0]}}</h3>
+					<img v-bind:src="p5[2]">
+					<p> {{p5[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 				<div class="col3">
-					coucou ça va 
+					<h3> Product {{p6[0]}}</h3>
+					<img v-bind:src="p6[2]">
+					<p> {{p6[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col1">
-					coucou ça va 
+					<h3> Product {{p7[0]}}</h3>
+					<img v-bind:src="p7[2]">
+					<p> {{p7[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 				<div class="col2">
-					coucou ça va 
+					<h3> Product {{p8[0]}}</h3>
+					<img v-bind:src="p8[2]">
+					<p> {{p8[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 				<div class="col3">
-					coucou ça va 
+					<h3> Product {{p9[0]}}</h3>
+					<img v-bind:src="p9[2]">
+					<p> {{p9[1]}}</p>
+					<button v-on:click="addtocart">Add to Cart</button>
 				</div>
 			</div>
 		</div>
