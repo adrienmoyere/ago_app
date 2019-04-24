@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping App</title>
+	<meta name="shop" content="showcase" charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+<body>
+	<div id="app">
+		<nav>
+			<ul>
+				<li id="title">My Shop</li> 
+				<li class="navbutton"><a href="cart.html">Cart({{cart}})</a></li>
+				<li class="navbutton"><a href="#app">Products</a></li>			
+			</ul>
+		</nav>
+		<div id="body">
+			<h1>Products</h1>
+			<div class="row">
+				<div class="col1">
+					<h3> Product {{p1[0]}}</h3>
+					<img v-bind:src="p1[2]">
+					<p> {{p1[1]}}</p>
+					<button v-on:click="">Add to Cart</button>
+				</div>
+				<div class="col2">
+					<h3> Product {{p2[0]}}</h3>
+					<img v-bind:src="p2[2]">
+					<p> {{p2[1]}}</p>
+				</div>
+				<div class="col3">
+					<h3> Product {{p3[0]}}</h3>
+					<img v-bind:src="p3[2]">
+					<p> {{p3[1]}}</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col1">
+					coucou ça va 
+				</div>
+				<div class="col2">
+					coucou ça va 
+				</div>
+				<div class="col3">
+					coucou ça va 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col1">
+					coucou ça va 
+				</div>
+				<div class="col2">
+					coucou ça va 
+				</div>
+				<div class="col3">
+					coucou ça va 
+				</div>
+			</div>
+		</div>
+
+		
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	</script>
+
+</body>
+</html>
+
+
+
