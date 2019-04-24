@@ -14,8 +14,8 @@ var app=new Vue({
   p9:[9,"qui eius qui autem sed","https://via.placeholder.com/600/51aa97"]
 	},
 	methods:{
-	addToCart: function(){
-		this.cart+=1;
-	}
+	addtocart: function(){
+		this.cart+=1; 
+		}
     }
 })
